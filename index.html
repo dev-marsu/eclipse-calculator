@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eclipse Calculator 🌘</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content-box">
+        <div class="flex-container">
+            <div class="img"></div>
+            <div class="alternate">
+                <li>Tipo de Eclipse:</li>
+                <div class="radio">
+                    <form>
+                        <label class="label-left" for="Solar">
+                            <input type="radio" id="Solar" name="option" value="Solar"> Solar
+                        </label>    
+                        <label class="label-right" for="Lunar">
+                            <input type="radio" id="Lunar" name="option" value="Lunar"> Lunar
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="countries">
+            <li>Selecione a Região:</li>
+            <select name="region" id="regiao">
+                <option value="reg"></option>
+                <option value="reg">Alemanha</option>
+                <option value="reg">Argentina</option>
+                <option value="reg">África do Sul</option>
+                <option value="reg">Brasil</option>
+                <option value="reg">China</option>
+                <option value="reg">Coreia do Sul</option>
+                <option value="reg">Egito</option>
+                <option value="reg">Etiópia</option>
+                <option value="reg">EUA</option>
+                <option value="reg">Islândia</option>
+                <option value="reg">Itália</option>
+                <option value="reg">Japão</option>
+                <option value="reg">Marrocos</option>
+                <option value="reg">Portugal</option>
+                <option value="reg">Tailândia</option>
+            </select>
+        </div>
+        <div class="result">
+            <li>O próximo Eclipse ocorrerá em:</li>
+        </div>
+    </div>
+    <p id="copy">Eclipse Calculator 2024 &copy All rights reserved.</p>
+</body>
+<script src="main.js"></script>
+</html>
